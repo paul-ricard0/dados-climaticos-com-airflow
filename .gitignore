@@ -1,0 +1,5 @@
+venv
+standalone_admin_password.txt
+logs
+dags/__pycache__/dados_climaticos.cpython-39.pyc
+dags/__pycache__/my_first_dag.cpython-39.pyc
