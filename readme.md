@@ -29,9 +29,9 @@ ou
 
 1. As dags/scripts desenvolvidas estão na pasta Dags
 2. Adicione sua Key no arquivo dags\dados_climaticos.py dentro na função extrair dados
-3. Altere o caminho que você quer que salve os arquivo nas variaveis file_path dentro da def extrai_dados
+3. Altere o caminho que você quer que salve os arquivo nas variáveis file_path dentro da def extrai_dados
 4. Altere o path no command dentro de tarefa_1
-5. Em with DAG() altere o start_date para a data de inicio que deseja. A atual é 01/06/2023
+5. Em with DAG() altere o start_date para a data de início que deseja. A atual é 01/06/2023
 
 ## Uso
 
@@ -43,3 +43,4 @@ ou
 3. Acesse [http://localhost:8080](http://localhost:8080) para usar o Airflow e gerenciar suas tarefas.
 4. Usuário será admin e a senha se encontra no arquivo `standalone_admin_password.txt`
 5. Executar a Dag dados_climaticos
+6. Os dados gerados vão aparecer no path que colocou nas variáveis do script
